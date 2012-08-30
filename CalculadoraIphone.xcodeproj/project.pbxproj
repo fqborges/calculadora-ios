@@ -39,6 +39,7 @@
 		CEF260EC15EADD9500969D78 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FlipsideViewController.xib; sourceTree = "<group>"; };
 		CEF260F315EADEA400969D78 /* Calculadora.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculadora.h; sourceTree = "<group>"; };
 		CEF260F415EADEA400969D78 /* Calculadora.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculadora.m; sourceTree = "<group>"; };
+		D4556DF615EEF17D00527B4C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		CEF260C115EADD9500969D78 = {
 			isa = PBXGroup;
 			children = (
+				D4556DF615EEF17D00527B4C /* .gitignore */,
 				CEF260D615EADD9500969D78 /* CalculadoraIphone */,
 				CEF260CF15EADD9500969D78 /* Frameworks */,
 				CEF260CD15EADD9500969D78 /* Products */,

@@ -16,3 +16,7 @@ profile
 *.moved-aside
 DerivedData
 .idea/
+
+CalculadoraIphone.xcodeproj/project.xcworkspace/xcuserdata/filipe.xcuserdatad/UserInterfaceState.xcuserstate
+
+*.xcuserstate

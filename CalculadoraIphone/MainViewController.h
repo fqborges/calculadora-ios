@@ -12,6 +12,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *visor;
 @property (weak, nonatomic) IBOutlet UITextField *valor;
+@property (weak, nonatomic) IBOutlet UIView *tecladoExtendido;
 
 - (IBAction)showInfo:(id)sender;
 - (IBAction)botaoMais:(id)sender;
@@ -23,5 +24,8 @@
 - (IBAction)botaoElevaPotencia:(id)sender;
 
 - (void) realizaOperacao: (NSString*) operacao;
+
+- (IBAction)tecladoOk:(id)sender;
+- (IBAction)tecladoPonto:(id)sender;
 
 @end

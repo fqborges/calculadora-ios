@@ -10,24 +10,24 @@
 
 @implementation Calculadora
 
-- (float) somarAcumulado: (float) acum comValor: (float) vlr
+- (float) somar: (float) valor com: (float) vlr
 {
-    return acum + vlr;
+    return valor + vlr;
 }
 
-- (float) subtrairAcumulado: (float) acum comValor: (float) vlr
+- (float) subtrair: (float) valor com: (float) vlr
 {
-    return acum - vlr;
+    return valor - vlr;
 }
 
-- (float) multiplicarAcumulado: (float) acum comValor: (float) vlr
+- (float) multiplicar: (float) valor com: (float) vlr
 {
-    return acum * vlr;
+    return valor * vlr;
 }
 
-- (float) dividirAcumulado: (float) acum comValor: (float) vlr
+- (float) dividir: (float) valor por: (float) vlr
 {
-    return acum / vlr;
+    return valor / vlr;
 }
 
 - (float) raizQuadrada: (float) vlr
@@ -40,9 +40,9 @@
     return vlr * -1;
 }
 
-- (float) elevaPotenciaAcumulado: (float) acum comValor: (float) vlr
+- (float) elevaPotencia: (float) base na: (float) potencia
 {
-    return powf(acum, vlr);
+    return powf(base, potencia);
 }
 
 @end

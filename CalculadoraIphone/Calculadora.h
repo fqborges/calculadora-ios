@@ -10,12 +10,12 @@
 
 @interface Calculadora : NSObject
 
-- (float) somarAcumulado: (float) acumulado comValor: (float) valor;
-- (float) subtrairAcumulado: (float) acumulado comValor: (float) valor;
-- (float) multiplicarAcumulado: (float) acumulado comValor: (float) valor;
-- (float) dividirAcumulado: (float) acumulado comValor: (float) valor;
+- (float) somar: (float) vlr com: (float) valor;
+- (float) subtrair: (float) vlr com: (float) valor;
+- (float) multiplicar: (float) vlr com: (float) valor;
+- (float) dividir: (float) vlr por: (float) valor;
 - (float) raizQuadrada: (float) vlr;
 - (float) trocaSinal: (float) vlr;
-- (float) elevaPotenciaAcumulado: (float) acum comValor: (float) vlr;
+- (float) elevaPotencia: (float) base na: (float) potencia;
 
 @end
